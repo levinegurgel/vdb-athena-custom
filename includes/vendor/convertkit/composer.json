@@ -1,0 +1,23 @@
+{
+  "name": "convertkit/convertkitapi",
+  "description": "ConvertKit API SDK",
+  "keywords": ["convertkit", "api", "forms"],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.3",
+    "monolog/monolog": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ConvertKit_API\\": "src/"
+    },
+    "classmap": [
+      "src/lib/"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

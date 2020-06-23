@@ -1,0 +1,106 @@
+{
+    "key": "group_5bdc8fa82370d",
+    "title": "Página",
+    "fields": [
+        {
+            "key": "field_5bdc8fdd5ca3c",
+            "label": "Título",
+            "name": "page_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bdc90265ca3d",
+            "label": "Subtítulo",
+            "name": "page_subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bdc90475ca3e",
+            "label": "Descrição",
+            "name": "page_description",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "front-page.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "about.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "contact.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "landing-article.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "builders.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1562244713
+}

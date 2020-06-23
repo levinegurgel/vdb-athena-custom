@@ -1,0 +1,62 @@
+{
+    "key": "group_5d1df5524f5ad",
+    "title": "Page Builders",
+    "fields": [
+        {
+            "key": "field_5d1df5f2fb466",
+            "label": "Exibir topo",
+            "name": "landing_builder_header",
+            "type": "true_false",
+            "instructions": "Exibir o topo do tema Athena",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5d1df630fb467",
+            "label": "Exibir rodapé",
+            "name": "landing_builder_footer",
+            "type": "true_false",
+            "instructions": "Exibir o rodapé do tema Athena",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "builders.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1562245024
+}

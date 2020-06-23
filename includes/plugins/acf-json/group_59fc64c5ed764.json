@@ -1,0 +1,128 @@
+{
+    "key": "group_59fc64c5ed764",
+    "title": "Material - Podcast",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "material"
+            },
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "material_type:podcasts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1558645539,
+    "fields": [
+        {
+            "key": "field_5bdc57ce377da",
+            "label": "Origem do episódio",
+            "name": "material_podcast_embed_source",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "internal": "Neste site",
+                "external": "Outro site"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_59fc64c6860c5",
+            "label": "Código do episódio",
+            "name": "material_podcast_embed",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5bdc57ce377da",
+                        "operator": "==",
+                        "value": "external"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bdc5995377db",
+            "label": "Arquivo de áudio",
+            "name": "material_podcast_embed_file",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5bdc57ce377da",
+                        "operator": "==",
+                        "value": "internal"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "mp3"
+        },
+        {
+            "key": "field_59fc64c686399",
+            "label": "Conteúdo da postagem",
+            "name": "material_podcast_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ]
+}

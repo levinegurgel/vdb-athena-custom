@@ -1,0 +1,43 @@
+{
+    "key": "group_5d37a51d78a0c",
+    "title": "Block - Vitrine Apollo",
+    "fields": [
+        {
+            "key": "field_5d37a53378d57",
+            "label": "URL para a vitrine pública",
+            "name": "url",
+            "type": "text",
+            "instructions": "<br>\r\n<b>Onde encontrar essa URL?<\/b>\r\n<br><br>\r\n1) Acesse sua escola Apollo como gestor<br>\r\n2) Clique no menu superior direito, ao lado do botão 'Dúvidas'<br>\r\n3) Clique em 'Configurar Escola'<br>\r\n4) Role a página até a seção 'Vitrine Pública'<br>\r\n5) Marque a opção 'Ativar Vitrine Pública'<br>\r\n6) Copie o link da vitrine pública<br>\r\n7) Cole no campo de texto 'URL para a vitrine pública' ali em cima.<br>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/ath-apollo"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1564592506
+}

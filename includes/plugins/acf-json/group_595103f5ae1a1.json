@@ -1,0 +1,192 @@
+{
+    "key": "group_595103f5ae1a1",
+    "title": "Banner",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "banner"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1558645522,
+    "fields": [
+        {
+            "key": "field_59510410fe3f4",
+            "label": "Subtítulo",
+            "name": "banner_subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5951069dfe3f8",
+            "label": "Botão - Link",
+            "name": "banner_cta_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_595106e5fe3f9",
+            "label": "Botão - Texto",
+            "name": "banner_cta_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5951097afe3fb",
+            "label": "Cor de Fundo 1",
+            "name": "banner_color1",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#2DB0EE"
+        },
+        {
+            "key": "field_595109a6fe3fc",
+            "label": "Cor de Fundo 2",
+            "name": "banner_color2",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#1197d4"
+        },
+        {
+            "key": "field_59510672fe3f7",
+            "label": "Imagem e\/ou Logo",
+            "name": "banner_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_596411ea82821",
+            "label": "Imagem de Fundo",
+            "name": "banner_image_bg",
+            "type": "image",
+            "instructions": "(Opcional)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5953fb86cbe28",
+            "label": "Desativar Banner em",
+            "name": "banner_end",
+            "type": "date_time_picker",
+            "instructions": "(Opcional)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y H:i:s",
+            "return_format": "YmdHis",
+            "first_day": 0
+        },
+        {
+            "key": "field_59d3c8ad6b0e0",
+            "label": "Destaque?",
+            "name": "banner_featured",
+            "type": "true_false",
+            "instructions": "Se ativada essa opção, esse banner vai sobrepor todos os outros em todas as posições em que se encontrar o <em>shortcode<\/em> <code>[ath_banner]<\/code> no site inteiro, respeitando a data de publicação e desativação, obviamente.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ]
+}

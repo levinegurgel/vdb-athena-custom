@@ -1,0 +1,78 @@
+{
+    "key": "group_5bffce50ad298",
+    "title": "Landing Artigo",
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "landing-article.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1558645536,
+    "fields": [
+        {
+            "key": "field_5bffced872ec7",
+            "label": "Logotipo",
+            "name": "landing_brand",
+            "type": "image",
+            "instructions": "Por padrão será utilizado o logotipo do projeto",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5bffce5b72ec5",
+            "label": "Cor primária",
+            "name": "landing_color1",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#2db0ee"
+        },
+        {
+            "key": "field_5bffcea672ec6",
+            "label": "Cor secundária",
+            "name": "landing_color2",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#2db0ee"
+        }
+    ]
+}
